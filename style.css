@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+button{
+    height: 42px;
+    width: 65px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+#start{
+    background-color: #28a745;
+}
+#start:hover{
+    background-color: #218838;
+}
+#pause{
+    background-color: #dc3545;
+}
+#pause:hover{
+    background-color: #b61b2b;
+}
+input{
+    text-align: center;
+    border: none;
+    font-size: 36px;
+}
